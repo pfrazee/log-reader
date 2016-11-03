@@ -1,0 +1,4 @@
+{
+  "title":"/log reader 2",
+  "description": "Aggregates text files from /log folders into a feed"
+}

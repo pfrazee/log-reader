@@ -1,0 +1,165 @@
+/* declare variables */
+:root {
+  --color-black: #272727;
+  --color-muted: #808080;
+  --color-white: #FFFFFF;
+  --color-link: #1A0DAB;
+  --color-error: #f00;
+}
+
+body {
+	color: var(--color-black);
+	background: var(--color-white);
+	font-family: 'Inconsolata';
+	font-size: 100%;
+	font-weight: 400;
+}
+h1 {
+	margin-bottom: 5px;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+h4 {
+  font-weight: 700;
+}
+p {
+	font-size: 1em;
+	line-height: 150%;
+}
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+a:visited {
+	color: var(--color-link);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--color-link);
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid var(--color-link);
+}
+a:active {
+	color: var(--color-link);
+	text-decoration: none;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+ul {
+	list-style: none;
+}
+ul li {
+  padding: 5px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 600px) {
+  ul li {
+    padding: 10px 0 10px 0;
+  }
+}
+blockquote {
+	border-left: 10px solid #ddd;
+	padding-left: 10px;
+	color: #555;
+}
+input {
+  padding: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea {
+  font-family: 'Inconsolata';
+  font-size: 100%;
+  font-weight: 400;
+}
+.muted {
+  color: var(--color-muted);
+}
+.error {
+  color: var(--color-error);
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px 30px 60px 30px;
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+.header {
+  border-bottom: 3px solid var(--color-black);
+  padding: 4px 6px 2px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+}
+
+.feed {
+  flex: 1;
+}
+
+.post-ctrls {
+  margin: 0 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px 20px;
+}
+.post-ctrls.hidden {
+  display: none;
+}
+.post-ctrls textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.post-ctrls .btns button:last-child {
+  float: right;
+}
+
+.feed .item {
+  margin: 0 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  line-height: 1.5;
+}
+.feed .item .meta {
+  color: var(--color-muted);
+}
+.feed .item .content {
+  white-space: pre-wrap;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  line-height: 1.25;  
+}
+
+.local-dat-ctrls {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sources {
+  padding-top: 10px;
+}
+.sources form {
+  padding-right: 5px;
+}
+.sources input {
+  margin: 5px 0;
+}

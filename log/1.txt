@@ -1,0 +1,7 @@
+/log v1
+Create a dat. Add the dat to your sources (on the right).
+In the dat, create a 'log' directory. Add text files to the log directory. They will show in the feed.
+Share your dat URL for others to follow your log. 
+
+- Contact @pfrazee if you have any trouble. -
+
